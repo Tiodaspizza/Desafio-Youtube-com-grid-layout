@@ -1,0 +1,78 @@
+
+
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+  max-width: 1200px;
+}
+
+header {
+  width: 100%;
+
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 99%;
+  padding-top: 1rem;
+}
+
+.left {
+  padding: 0 0 0 12px;
+}
+
+main {
+  display: flex;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+}
+
+form input {
+  width: 354px;
+  max-width: 500px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  padding: 1rem;
+  display: flex;
+}
+
+button {
+  width: 57px;
+  height: 40px;
+}
+
+aside {
+  display: inline-flex;
+  padding: 4rem 0rem 0rem 2rem;
+  width: 240px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 100rem;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  background-color: rgba(228, 228, 228, 0.116);
+  padding-top: 2rem;
+}
